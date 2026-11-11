@@ -51,7 +51,7 @@ def commonManifest = {
 
 version = "1.0.0"
 group= "src.trainaddon" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "FoxTC_Addon-PACKNAME"
+archivesBaseName = "FoxTC_Addon-OpenTC Train Pack"
 
 minecraft {
     version = "1.7.10-10.13.4.1614-1.7.10"
@@ -100,10 +100,21 @@ sourceSets {
 
 
 jar {
-    // Exclude unwanted directories or files
-    exclude('train/**')
-    exclude('build/libs/tc/src/main/java/train/**')
+    // reobf potrzebuje klas FoxTC, ale nie jego tekstur i dzwiekow
+    exclude { it.path.startsWith('assets/') && !it.path.startsWith('assets/opentc') }
 }
+
+// Gotowy addon: bierzemy jar PO reobf i zostawiamy tylko nasze pliki
+task addonJar(type: Jar, dependsOn: 'reobf') {
+    from(zipTree(jar.archivePath)) {
+        include 'trainaddon/**'
+        include 'assets/opentc/**'
+        include 'mcmod.info'
+    }
+    archiveName = 'OpenTCTrainPack-' + project.version + '.jar'
+    destinationDir = file("$buildDir/addon")
+}
+build.dependsOn addonJar
 
 //task packApi(type: Jar, dependsOn: "classes") {
 //   // Jar will always be updated
@@ -192,4 +203,31 @@ processResources {
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
     }
+}
+
+// --- Dependencies required by FoxTC ---
+repositories {
+    maven { url "https://jitpack.io" }
+    maven { name = "Mobius Repo"; url = "http://mobiusstrip.eu/maven" }
+}
+
+dependencies {
+    compile "mcp.mobius.waila:Waila:1.5.10_1.7.10:dev"
+    compile "li.cil.oc:OpenComputers:MC1.7.10-1.7.5+:api"
+    compile "codechicken:CodeChickenLib:1.7.10-1.1.3.140:dev"
+    compile "codechicken:CodeChickenCore:1.7.10-1.0.7.47:dev"
+    compile "codechicken:NotEnoughItems:1.7.10-1.0.5.120:dev"
+
+    compile 'com.github.goxr3plus:java-stream-player:10.0.2'
+    compile 'com.googlecode.soundlibs:mp3spi:1.9.5.4'
+    compile 'org.jflac:jflac-codec:1.5.2'
+    compile 'com.googlecode.soundlibs:vorbisspi:1.0.3.3'
+    compile 'com.googlecode.soundlibs:tritonus-share:0.3.7.4'
+    compile 'com.googlecode.soundlibs:jorbis:0.0.17'
+    compile 'com.github.goxr3plus:jaudiotagger:2.2.7'
+    compile 'commons-io:commons-io:2.7'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
 }

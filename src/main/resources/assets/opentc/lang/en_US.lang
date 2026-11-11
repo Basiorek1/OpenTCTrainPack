@@ -1,0 +1,30 @@
+<!-- ## This is a comment, do no remove or modify these! ## -->
+<!-- ## Only replace the words on the right side of "=" ## -->
+<!-- ## Save the file the same way this file was saved but replace "en_US" with appropriate language name ## -->
+
+<!-- ## Lokomotywy elektryczne ## -->
+item.opentc:minecartET42_A.name=ET42-A (PKP)
+entity.opentc.PKP ET42-A.name=ET42-A (PKP)
+item.opentc:minecartET42_B.name=ET42-B (PKP)
+entity.opentc.PKP ET42-B.name=ET42-B (PKP)
+
+item.opentc:minecartEP09_Wiadra_Polowki.name=EP09 Wiadra Połówki (PKP)
+entity.opentc.EP09_Wiadra_Polowki.name=EP09 Wiadra Połówki (PKP)
+
+item.opentc:minecart4E_EU07.name=4E EU07 (PKP)
+entity.opentc.PKP 4E EU07.name=4E EU07 (PKP)
+item.opentc:minecart4E_EP07.name=4E EP07 (PKP)
+entity.opentc.PKP 4E EP07.name=4E EP07 (PKP)
+item.opentc:minecartEP08.name=EP08 (PKP)
+entity.opentc.PKP EP08.name=EP08 (PKP)
+
+item.opentc:minecart303E_EU07.name=303E EU07 (PKP)
+entity.opentc.PKP 303E EU07.name=303E EU07 (PKP)
+item.opentc:minecart303E_EP07.name=303E EP07 (PKP)
+entity.opentc.PKP 303E EP07.name=303E EP07 (PKP)
+
+item.opentc:minecartSM31.name=SM31 (PKP)
+entity.opentc.PKP SM31.name=SM31 (PKP)
+
+item.opentc:minecart412W_Eaos.name=412W Eaos (PKP)
+entity.opentc.PKP 412W Eaos.name=412W Eaos(PKP)

@@ -33,7 +33,7 @@ public class FoxTCAddonPack
     public void preInit(FMLPreInitializationEvent event)
     {
         addonLog.info("preInit Addon Pack -" + Info.modName);
-        addonTabOne = new CreativeTabAddonPack(CreativeTabs.getNextID(), "addonTabOne", Items.apple);
+        addonTabOne = new CreativeTabAddonPack(CreativeTabs.getNextID(), "OpenTC Train Pack", Items.apple);
 
         AddonPackItems addonPackItems = new AddonPackItems();
         AddonPackRollingStockEntityHandler entityHandler = new AddonPackRollingStockEntityHandler();

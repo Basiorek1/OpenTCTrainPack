@@ -1,0 +1,17 @@
+{
+  "112e_horn": {"category": "master", "sounds": [{"name": "112e_horn", "stream": true}]},
+  "112e_run":  {"category": "master", "sounds": [{"name": "112e_run",  "stream": true}]},
+  "112e_idle": {"category": "master", "sounds": [{"name": "112e_idle", "stream": true}]},
+  "104e_horn": {"category": "master", "sounds": [{"name": "104e_horn", "stream": true}]},
+  "104e_run":  {"category": "master", "sounds": [{"name": "104e_run",  "stream": true}]},
+  "104e_idle": {"category": "master", "sounds": [{"name": "104e_idle", "stream": true}]},
+  "4e_horn": {"category": "master", "sounds": [{"name": "4e_horn", "stream": true}]},
+  "4e_run":  {"category": "master", "sounds": [{"name": "4e_run",  "stream": true}]},
+  "4e_idle": {"category": "master", "sounds": [{"name": "4e_idle", "stream": true}]},
+  "303e_horn": {"category": "master", "sounds": [{"name": "303e_horn", "stream": true}]},
+  "303e_run":  {"category": "master", "sounds": [{"name": "303e_run",  "stream": true}]},
+  "303e_idle": {"category": "master", "sounds": [{"name": "303e_idle", "stream": true}]},
+  "411d_horn": {"category": "master", "sounds": [{"name": "411d_horn", "stream": true}]},
+  "411d_run":  {"category": "master", "sounds": [{"name": "411d_run",  "stream": true}]},
+  "411d_idle": {"category": "master", "sounds": [{"name": "411d_idle", "stream": true}]}
+}

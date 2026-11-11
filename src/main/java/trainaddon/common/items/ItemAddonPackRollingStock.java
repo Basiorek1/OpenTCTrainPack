@@ -16,7 +16,7 @@ public class ItemAddonPackRollingStock  extends ItemAbstractRollingStock
     @Override
     public String GetContentPackName()
     {
-        return null;
+        return "OpenTCTrainPack";
     }
 
     @Override

@@ -11,16 +11,19 @@ import static train.common.library.TypeOfRollingStock.*;
  */
 public enum AddonRollingStockItems
 {
-    //minecraftTemplate("template-icon", STEAM, 100),
-    //minecraftTemplateUntradeable("template-icon", STEAM)
+    minecartET42_A("ET42-A-icon", ELECTRIC, 20),
+    minecartET42_B("ET42-B-icon", ELECTRIC, 20),
+    minecartEP09_Wiadra_Polowki("EP09_wiadra_polowki-icon", ELECTRIC, 20),
+    minecart4E_EU07("4E-EU07-icon", ELECTRIC, 20),
+    minecart4E_EP07("4E-EP07-icon", ELECTRIC, 20),
+    minecartEP08("4E-EP08-icon", ELECTRIC, 20),
+    minecart303E_EU07("303E-EU07-icon", ELECTRIC, 20),
+    minecart303E_EP07("303E-EP07-icon", ELECTRIC, 20),
+    minecartSM31("411D-icon", DIESEL, 20),
+    minecart412W_Eaos("412W-icon", FREIGHT, 10),
     ;
 
 
-    /**
-     * @param iconName
-     * @param typeOfRollingStock the type of rollingstock
-     * @param amountForEmerald amount for Emerald
-     */
     AddonRollingStockItems(String iconName, train.common.library.TypeOfRollingStock typeOfRollingStock, int amountForEmerald)
     {
         this.iconName = iconName;
@@ -36,11 +39,6 @@ public enum AddonRollingStockItems
         this.amountForEmerald = (byte) amountForEmerald;
         ItemName = itemName;
     }
-
-    /** USED FOR ROLLINGSTOCK THAT IS NOT ALLOWED TO BE TRADED FOR
-     * @param iconName
-     * @param typeOfRollingStock the type of rollingstock
-     */
 
     AddonRollingStockItems(String iconName, TypeOfRollingStock typeOfRollingStock)
     {
@@ -64,8 +62,5 @@ public enum AddonRollingStockItems
 
     public final String ItemName;
 
-    /**
-     * amount for emerald. For ItemRollingStock, it is the price for one train
-     */
     public byte amountForEmerald;
 }
