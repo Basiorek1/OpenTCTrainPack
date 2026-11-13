@@ -43,15 +43,15 @@ public class Model411D extends ModelConverter {
 
 		bodyModel[6] = new ModelRendererTurbo(this, 150, 133, textureX, textureY);
 		bodyModel[6].addShapeBox(0, 0, 0, 1, 18, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0);
-		bodyModel[6].setRotationPoint(35.7f, -17.5f, -6.0000005f);
+		bodyModel[6].setRotationPoint(35.7f, -17.5f, -6.0f);
 
 		bodyModel[7] = new ModelRendererTurbo(this, 27, 130, textureX, textureY);
 		bodyModel[7].addShapeBox(0, 0, 0, 1, 18, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0);
-		bodyModel[7].setRotationPoint(-42.6f, -17.5f, -6.0000005f);
+		bodyModel[7].setRotationPoint(-42.6f, -17.5f, -6.0f);
 
 		bodyModel[8] = new ModelRendererTurbo(this, 109, 51, textureX, textureY);
 		bodyModel[8].addShapeBox(0, 0, 0, 53, 18, 1, 0, 0.2f, 0, 0, 0, 0, 0, 0, 0, 0, 0.2f, 0, 0, 0.2f, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0.2f, -0.5f, 0);
-		bodyModel[8].setRotationPoint(-17.3f, -17.5f, -6.0000005f);
+		bodyModel[8].setRotationPoint(-17.3f, -17.5f, -6.0f);
 
 		bodyModel[9] = new ModelRendererTurbo(this, 0, 51, textureX, textureY);
 		bodyModel[9].addShapeBox(0, 0, 0, 53, 18, 1, 0, 0.2f, 0, 0, 0, 0, 0, 0, 0, 0, 0.2f, 0, 0, 0.2f, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0.2f, -0.5f, 0);
@@ -67,7 +67,7 @@ public class Model411D extends ModelConverter {
 
 		bodyModel[12] = new ModelRendererTurbo(this, 123, 128, textureX, textureY);
 		bodyModel[12].addShapeBox(0, 0, 0, 12, 18, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0);
-		bodyModel[12].setRotationPoint(-41.6f, -17.5f, -6.0000005f);
+		bodyModel[12].setRotationPoint(-41.6f, -17.5f, -6.0f);
 
 		bodyModel[13] = new ModelRendererTurbo(this, 33, 90, textureX, textureY);
 		bodyModel[13].addShapeBox(0, 0, 0, 12, 8, 2, 0, 0.1f, 0, 0, 0, 0, 0, 0, 0, 0, 0.1f, 0, 0, 0.1f, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0.1f, -0.5f, 0);
@@ -87,7 +87,7 @@ public class Model411D extends ModelConverter {
 
 		bodyModel[17] = new ModelRendererTurbo(this, 0, 26, textureX, textureY);
 		bodyModel[17].addShapeBox(0, 0, 0, 80, 2, 6, 0, 0, 0, 0, -0.7f, 0, 0, -0.7f, 0, 0, 0, 0, 0, 0, -0.5f, 0, -0.7f, -0.5f, 0, -0.7f, -0.5f, 0, 0, -0.5f, 0);
-		bodyModel[17].setRotationPoint(-42.6f, -19.0f, -3.0000005f);
+		bodyModel[17].setRotationPoint(-42.6f, -19.0f, -3.0f);
 
 		bodyModel[18] = new ModelRendererTurbo(this, 0, 40, textureX, textureY);
 		bodyModel[18].addShapeBox(0, 0, 0, 80, 2, 2, 0, 0, 0, 0, -0.7f, 0, 0, -0.7f, -0.7f, 0, 0, -0.7f, 0, 0, -0.5f, 0, -0.7f, -0.5f, 0, -0.7f, -0.5f, 0, 0, -0.5f, 0);
@@ -95,11 +95,11 @@ public class Model411D extends ModelConverter {
 
 		bodyModel[19] = new ModelRendererTurbo(this, 0, 35, textureX, textureY);
 		bodyModel[19].addShapeBox(0, 0, 0, 80, 2, 2, 0, 0, -0.7f, 0, -0.7f, -0.7f, 0, -0.7f, 0, 0, 0, 0, 0, 0, -0.5f, 0, -0.7f, -0.5f, 0, -0.7f, -0.5f, 0, 0, -0.5f, 0);
-		bodyModel[19].setRotationPoint(-42.6f, -19.0f, -5.0000005f);
+		bodyModel[19].setRotationPoint(-42.6f, -19.0f, -5.0f);
 
 		bodyModel[20] = new ModelRendererTurbo(this, 0, 48, textureX, textureY);
 		bodyModel[20].addShapeBox(0, 0, 0, 80, 1, 1, 0, 0, -0.7f, 0, -0.7f, -0.7f, 0, -0.7f, 0, 0, 0, 0, 0, 0, -0.2f, 0, -0.7f, -0.2f, 0, -0.7f, -0.2f, 0, 0, -0.2f, 0);
-		bodyModel[20].setRotationPoint(-42.6f, -18.3f, -6.0000005f);
+		bodyModel[20].setRotationPoint(-42.6f, -18.3f, -6.0f);
 
 		bodyModel[21] = new ModelRendererTurbo(this, 0, 45, textureX, textureY);
 		bodyModel[21].addShapeBox(0, 0, 0, 80, 1, 1, 0, 0, 0, 0, -0.7f, 0, 0, -0.7f, -0.7f, 0, 0, -0.7f, 0, 0, -0.2f, 0, -0.7f, -0.2f, 0, -0.7f, -0.2f, 0, 0, -0.2f, 0);
@@ -203,27 +203,27 @@ public class Model411D extends ModelConverter {
 
 		bodyModel[46] = new ModelRendererTurbo(this, 87, 113, textureX, textureY);
 		bodyModel[46].addShapeBox(0, 0, 0, 1, 3, 3, 0, 0, -1, 0, 0, -1, 0, 0, -1, -1, 0, -1, -1, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, -1);
-		bodyModel[46].setRotationPoint(-42.8f, -4.5f, -5.1000004f);
+		bodyModel[46].setRotationPoint(-42.8f, -4.5f, -5.1f);
 
 		bodyModel[47] = new ModelRendererTurbo(this, 187, 112, textureX, textureY);
 		bodyModel[47].addShapeBox(0, 0, 0, 1, 3, 3, 0, 0, -1, 0, 0, -1, 0, 0, -1, -1, 0, -1, -1, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, -1);
-		bodyModel[47].setRotationPoint(-42.8f, -4.5f, 3.0999994f);
+		bodyModel[47].setRotationPoint(-42.8f, -4.5f, 3.1f);
 
 		bodyModel[48] = new ModelRendererTurbo(this, 145, 108, textureX, textureY);
 		bodyModel[48].addShapeBox(0, 0, 0, 1, 3, 3, 0, 0, -1, 0, 0, -1, 0, 0, -1, -1, 0, -1, -1, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, -1);
-		bodyModel[48].setRotationPoint(-42.8f, -18.5f, -1.2000008f);
+		bodyModel[48].setRotationPoint(-42.8f, -19.5f, -1.2f);
 
 		bodyModel[49] = new ModelRendererTurbo(this, 45, 108, textureX, textureY);
 		bodyModel[49].addShapeBox(0, 0, 0, 1, 3, 3, 0, 0, -1, 0, 0, -1, 0, 0, -1, -1, 0, -1, -1, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, -1);
-		bodyModel[49].setRotationPoint(35.9f, -4.5f, -5.1000004f);
+		bodyModel[49].setRotationPoint(35.9f, -4.5f, -5.1f);
 
 		bodyModel[50] = new ModelRendererTurbo(this, 22, 107, textureX, textureY);
 		bodyModel[50].addShapeBox(0, 0, 0, 1, 3, 3, 0, 0, -1, 0, 0, -1, 0, 0, -1, -1, 0, -1, -1, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, -1);
-		bodyModel[50].setRotationPoint(35.9f, -4.5f, 3.0999994f);
+		bodyModel[50].setRotationPoint(35.9f, -4.5f, 3.1f);
 
 		bodyModel[51] = new ModelRendererTurbo(this, 246, 92, textureX, textureY);
 		bodyModel[51].addShapeBox(0, 0, 0, 1, 3, 3, 0, 0, -1, 0, 0, -1, 0, 0, -1, -1, 0, -1, -1, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, -1);
-		bodyModel[51].setRotationPoint(35.9f, -19.5f, -1.2000008f);
+		bodyModel[51].setRotationPoint(35.9f, -19.5f, -1.2f);
 
 		bodyModel[52] = new ModelRendererTurbo(this, 0, 0, textureX, textureY);
 		bodyModel[52].flip = true;
@@ -232,7 +232,7 @@ public class Model411D extends ModelConverter {
 
 		bodyModel[53] = new ModelRendererTurbo(this, 165, 29, textureX, textureY);
 		bodyModel[53].addShapeBox(0, 0, 0, 16, 1, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-		bodyModel[53].setRotationPoint(-13.0f, -19.1f, -4.5000005f);
+		bodyModel[53].setRotationPoint(-13.0f, -19.1f, -4.5f);
 
 		bodyModel[54] = new ModelRendererTurbo(this, 101, 71, textureX, textureY);
 		bodyModel[54].addShapeBox(0, 0, 0, 49, 8, 1, 0, -0.5f, -0.5f, -0.8f, 0, -0.5f, -0.8f, 0, -0.5f, 0, -0.5f, -0.5f, 0, -0.5f, 0, -0.8f, 0, 0, -0.8f, 0, 0, 0, -0.5f, 0, 0);
@@ -240,11 +240,11 @@ public class Model411D extends ModelConverter {
 
 		bodyModel[55] = new ModelRendererTurbo(this, 244, 137, textureX, textureY);
 		bodyModel[55].addShapeBox(0, 0, 0, 1, 12, 3, 0, -0.6f, -0.5f, -0.8f, 0, -0.5f, -0.8f, 0, -0.5f, 0, -0.6f, -0.5f, 0, -0.6f, 0, -0.8f, 0, 0, -0.8f, 0, 0, 0, -0.6f, 0, 0);
-		bodyModel[55].setRotationPoint(38.5f, -8.0f, 6.299999f);
+		bodyModel[55].setRotationPoint(38.5f, -8.0f, 6.3f);
 
 		bodyModel[56] = new ModelRendererTurbo(this, 222, 100, textureX, textureY);
 		bodyModel[56].addShapeBox(0, 0, 0, 1, 8, 15, 0, -0.6f, -0.5f, -0.8f, 0, -0.5f, -0.8f, 0, -0.5f, 0, -0.6f, -0.5f, 0, -0.6f, 0, -0.8f, 0, 0, -0.8f, 0, 0, 0, -0.6f, 0, 0);
-		bodyModel[56].setRotationPoint(38.5f, -8.0f, -7.9000006f);
+		bodyModel[56].setRotationPoint(38.5f, -8.0f, -7.9f);
 
 		bodyModel[57] = new ModelRendererTurbo(this, 54, 130, textureX, textureY);
 		bodyModel[57].addShapeBox(0, 0, 0, 1, 12, 3, 0, -0.6f, -0.5f, -0.8f, 0, -0.5f, -0.8f, 0, -0.5f, 0, -0.6f, -0.5f, 0, -0.6f, 0, -0.8f, 0, 0, -0.8f, 0, 0, 0, -0.6f, 0, 0);
@@ -260,11 +260,11 @@ public class Model411D extends ModelConverter {
 
 		bodyModel[60] = new ModelRendererTurbo(this, 150, 128, textureX, textureY);
 		bodyModel[60].addShapeBox(0, 0, 0, 1, 12, 3, 0, -0.6f, -0.5f, -0.8f, 0, -0.5f, -0.8f, 0, -0.5f, 0, -0.6f, -0.5f, 0, -0.6f, 0, -0.8f, 0, 0, -0.8f, 0, 0, 0, -0.6f, 0, 0);
-		bodyModel[60].setRotationPoint(-46.1f, -8.0f, 6.299999f);
+		bodyModel[60].setRotationPoint(-46.1f, -8.0f, 6.3f);
 
 		bodyModel[61] = new ModelRendererTurbo(this, 221, 34, textureX, textureY);
 		bodyModel[61].addShapeBox(0, 0, 0, 1, 8, 15, 0, -0.6f, -0.5f, -0.8f, 0, -0.5f, -0.8f, 0, -0.5f, 0, -0.6f, -0.5f, 0, -0.6f, 0, -0.8f, 0, 0, -0.8f, 0, 0, 0, -0.6f, 0, 0);
-		bodyModel[61].setRotationPoint(-46.1f, -8.0f, -7.9000006f);
+		bodyModel[61].setRotationPoint(-46.1f, -8.0f, -7.9f);
 
 		bodyModel[62] = new ModelRendererTurbo(this, 106, 94, textureX, textureY);
 		bodyModel[62].addShapeBox(0, 0, 0, 4, 1, 2, 0, -0.6f, 0, -0.2f, -0.6f, 0, -0.2f, -0.6f, 0, -0.2f, -0.6f, 0, -0.2f, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
@@ -288,7 +288,7 @@ public class Model411D extends ModelConverter {
 
 		bodyModel[67] = new ModelRendererTurbo(this, 141, 81, textureX, textureY);
 		bodyModel[67].addShapeBox(0, 0, 0, 6, 8, 1, 0, -0.9f, -0.5f, -1, -0.1f, -0.5f, 0, -0.1f, -0.5f, -0.8f, -0.9f, -0.5f, 0.2f, -0.9f, 0, -1, -0.1f, 0, 0, -0.1f, 0, -0.8f, -0.9f, 0, 0.2f);
-		bodyModel[67].setRotationPoint(30.1f, -8.0f, 9.799999f);
+		bodyModel[67].setRotationPoint(30.1f, -8.0f, 9.8f);
 
 		bodyModel[68] = new ModelRendererTurbo(this, 170, 98, textureX, textureY);
 		bodyModel[68].addBox(0, 0, 0, 2, 1, 1, 0f);
@@ -376,15 +376,15 @@ public class Model411D extends ModelConverter {
 
 		bodyModel[89] = new ModelRendererTurbo(this, 229, 58, textureX, textureY);
 		bodyModel[89].addShapeBox(0, 0, 0, 11, 1, 2, 0, -1, 0, 0, -0.5f, -2.5f, 0, -0.5f, -2.5f, 0, -1, 0, 0, -1, 0, 0, -1.5f, 1.5f, 0, -1.5f, 1.5f, 0, -1, 0, 0);
-		bodyModel[89].setRotationPoint(23.5f, 3.0f, -1.0100002f);
+		bodyModel[89].setRotationPoint(23.5f, 3.0f, -1.01f);
 
 		bodyModel[90] = new ModelRendererTurbo(this, 0, 81, textureX, textureY);
 		bodyModel[90].addShapeBox(0, 0, 0, 2, 1, 5, 0, 0, -1, 0, 0, -1, 0, 0, -1.5f, 0.5f, 0, -1.5f, 0.5f, 0, 1, 0, 0, 1, 0, 0, 1.5f, 0.5f, 0, 1.5f, 0.5f);
-		bodyModel[90].setRotationPoint(21.5f, 2.0f, 0.9899998f);
+		bodyModel[90].setRotationPoint(21.5f, 2.0f, 0.99f);
 
 		bodyModel[91] = new ModelRendererTurbo(this, 202, 71, textureX, textureY);
 		bodyModel[91].addShapeBox(0, 0, -3, 2, 1, 5, 0, 0, -1.5f, 0.5f, 0, -1.5f, 0.5f, 0, -1, 0, 0, -1, 0, 0, 1.5f, 0.5f, 0, 1.5f, 0.5f, 0, 1, 0, 0, 1, 0);
-		bodyModel[91].setRotationPoint(23.5f, 2.0f, -3.0100002f);
+		bodyModel[91].setRotationPoint(23.5f, 2.0f, -3.01f);
 
 		bodyModel[92] = new ModelRendererTurbo(this, 233, 95, textureX, textureY);
 		bodyModel[92].addShapeBox(0, 0, 0, 2, 1, 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0);
@@ -468,7 +468,7 @@ public class Model411D extends ModelConverter {
 
 		bodyModel[112] = new ModelRendererTurbo(this, 230, 105, textureX, textureY);
 		bodyModel[112].addBox(0, 0, 0, 1, 1, 1, 0f);
-		bodyModel[112].setRotationPoint(20.0f, 2.0f, -0.5100002f);
+		bodyModel[112].setRotationPoint(20.0f, 2.0f, -0.51f);
 
 		bodyModel[113] = new ModelRendererTurbo(this, 177, 133, textureX, textureY);
 		bodyModel[113].addBox(0, 0, 0, 1, 1, 11, 0f);
@@ -524,15 +524,15 @@ public class Model411D extends ModelConverter {
 
 		bodyModel[126] = new ModelRendererTurbo(this, 239, 36, textureX, textureY);
 		bodyModel[126].addShapeBox(0, 0, 0, 2, 1, 5, 0, 0, -1, 0, 0, -1, 0, 0, -1.5f, 0.5f, 0, -1.5f, 0.5f, 0, 1, 0, 0, 1, 0, 0, 1.5f, 0.5f, 0, 1.5f, 0.5f);
-		bodyModel[126].setRotationPoint(17.5f, 2.0f, 0.9899998f);
+		bodyModel[126].setRotationPoint(17.5f, 2.0f, 0.99f);
 
 		bodyModel[127] = new ModelRendererTurbo(this, 219, 33, textureX, textureY);
 		bodyModel[127].addShapeBox(0, 0, -3, 2, 1, 5, 0, 0, -1.5f, 0.5f, 0, -1.5f, 0.5f, 0, -1, 0, 0, -1, 0, 0, 1.5f, 0.5f, 0, 1.5f, 0.5f, 0, 1, 0, 0, 1, 0);
-		bodyModel[127].setRotationPoint(17.5f, 2.0f, -3.0100002f);
+		bodyModel[127].setRotationPoint(17.5f, 2.0f, -3.01f);
 
 		bodyModel[128] = new ModelRendererTurbo(this, 79, 96, textureX, textureY);
 		bodyModel[128].addShapeBox(0, 0, -1, 10, 1, 2, 0, -0.5f, -2.5f, 0, -1, 0, 0, -1, 0, 0, -0.5f, -2.5f, 0, -1.5f, 1.5f, 0, -1, 0, 0, -1, 0, 0, -1.5f, 1.5f, 0);
-		bodyModel[128].setRotationPoint(6.5f, 3.0f, -0.010000229f);
+		bodyModel[128].setRotationPoint(6.5f, 3.0f, -0.01f);
 
 		bodyModel[129] = new ModelRendererTurbo(this, 9, 120, textureX, textureY);
 		bodyModel[129].addShapeBox(0, 0, 0, 2, 3, 1, 0, 0, 0, 0, 0, -2, 0, 0, -2, 0, 0, 0, 0, 0, -2, 0, 0, 0, 0, 0, 0, 0, 0, -2, 0);
@@ -640,7 +640,7 @@ public class Model411D extends ModelConverter {
 
 		bodyModel[155] = new ModelRendererTurbo(this, 232, 0, textureX, textureY);
 		bodyModel[155].addShapeBox(0, 0, 0, 9, 1, 2, 0, 0, -1, 0, 0, -1, 0, 0, -1, 0, 0, -1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0);
-		bodyModel[155].setRotationPoint(15.5f, 2.0f, -1.0100002f);
+		bodyModel[155].setRotationPoint(15.5f, 2.0f, -1.01f);
 
 		bodyModel[156] = new ModelRendererTurbo(this, 185, 85, textureX, textureY);
 		bodyModel[156].addBox(0, 0, 0, 1, 2, 1, 0f);
@@ -688,15 +688,15 @@ public class Model411D extends ModelConverter {
 
 		bodyModel[167] = new ModelRendererTurbo(this, 219, 29, textureX, textureY);
 		bodyModel[167].addShapeBox(0, 0, 0, 11, 1, 2, 0, -1, 0, 0, -0.5f, -2.5f, 0, -0.5f, -2.5f, 0, -1, 0, 0, -1, 0, 0, -1.5f, 1.5f, 0, -1.5f, 1.5f, 0, -1, 0, 0);
-		bodyModel[167].setRotationPoint(-23.5f, 3.0f, -1.0100002f);
+		bodyModel[167].setRotationPoint(-23.5f, 3.0f, -1.01f);
 
 		bodyModel[168] = new ModelRendererTurbo(this, 241, 29, textureX, textureY);
 		bodyModel[168].addShapeBox(0, 0, 0, 2, 1, 5, 0, 0, -1, 0, 0, -1, 0, 0, -1.5f, 0.5f, 0, -1.5f, 0.5f, 0, 1, 0, 0, 1, 0, 0, 1.5f, 0.5f, 0, 1.5f, 0.5f);
-		bodyModel[168].setRotationPoint(-25.5f, 2.0f, 0.9899998f);
+		bodyModel[168].setRotationPoint(-25.5f, 2.0f, 0.99f);
 
 		bodyModel[169] = new ModelRendererTurbo(this, 179, 10, textureX, textureY);
 		bodyModel[169].addShapeBox(0, 0, -3, 2, 1, 5, 0, 0, -1.5f, 0.5f, 0, -1.5f, 0.5f, 0, -1, 0, 0, -1, 0, 0, 1.5f, 0.5f, 0, 1.5f, 0.5f, 0, 1, 0, 0, 1, 0);
-		bodyModel[169].setRotationPoint(-23.5f, 2.0f, -3.0100002f);
+		bodyModel[169].setRotationPoint(-23.5f, 2.0f, -3.01f);
 
 		bodyModel[170] = new ModelRendererTurbo(this, 218, 85, textureX, textureY);
 		bodyModel[170].addShapeBox(0, 0, 0, 2, 1, 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0);
@@ -780,7 +780,7 @@ public class Model411D extends ModelConverter {
 
 		bodyModel[190] = new ModelRendererTurbo(this, 219, 33, textureX, textureY);
 		bodyModel[190].addBox(0, 0, 0, 1, 1, 1, 0f);
-		bodyModel[190].setRotationPoint(-27.0f, 2.0f, -0.5100002f);
+		bodyModel[190].setRotationPoint(-27.0f, 2.0f, -0.51f);
 
 		bodyModel[191] = new ModelRendererTurbo(this, 145, 104, textureX, textureY);
 		bodyModel[191].addBox(0, 0, 0, 1, 1, 11, 0f);
@@ -836,15 +836,15 @@ public class Model411D extends ModelConverter {
 
 		bodyModel[204] = new ModelRendererTurbo(this, 159, 7, textureX, textureY);
 		bodyModel[204].addShapeBox(0, 0, 0, 2, 1, 5, 0, 0, -1, 0, 0, -1, 0, 0, -1.5f, 0.5f, 0, -1.5f, 0.5f, 0, 1, 0, 0, 1, 0, 0, 1.5f, 0.5f, 0, 1.5f, 0.5f);
-		bodyModel[204].setRotationPoint(-29.5f, 2.0f, 0.9899998f);
+		bodyModel[204].setRotationPoint(-29.5f, 2.0f, 0.99f);
 
 		bodyModel[205] = new ModelRendererTurbo(this, 159, 0, textureX, textureY);
 		bodyModel[205].addShapeBox(0, 0, -3, 2, 1, 5, 0, 0, -1.5f, 0.5f, 0, -1.5f, 0.5f, 0, -1, 0, 0, -1, 0, 0, 1.5f, 0.5f, 0, 1.5f, 0.5f, 0, 1, 0, 0, 1, 0);
-		bodyModel[205].setRotationPoint(-29.5f, 2.0f, -3.0100002f);
+		bodyModel[205].setRotationPoint(-29.5f, 2.0f, -3.01f);
 
 		bodyModel[206] = new ModelRendererTurbo(this, 229, 72, textureX, textureY);
 		bodyModel[206].addShapeBox(0, 0, -1, 10, 1, 2, 0, -0.5f, -2.5f, 0, -1, 0, 0, -1, 0, 0, -0.5f, -2.5f, 0, -1.5f, 1.5f, 0, -1, 0, 0, -1, 0, 0, -1.5f, 1.5f, 0);
-		bodyModel[206].setRotationPoint(-40.5f, 3.0f, -0.010000229f);
+		bodyModel[206].setRotationPoint(-40.5f, 3.0f, -0.01f);
 
 		bodyModel[207] = new ModelRendererTurbo(this, 248, 87, textureX, textureY);
 		bodyModel[207].addShapeBox(0, 0, 0, 2, 3, 1, 0, 0, 0, 0, 0, -2, 0, 0, -2, 0, 0, 0, 0, 0, -2, 0, 0, 0, 0, 0, 0, 0, 0, -2, 0);
@@ -952,11 +952,11 @@ public class Model411D extends ModelConverter {
 
 		bodyModel[233] = new ModelRendererTurbo(this, 179, 0, textureX, textureY);
 		bodyModel[233].addShapeBox(0, 0, 0, 9, 1, 2, 0, 0, -1, 0, 0, -1, 0, 0, -1, 0, 0, -1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0);
-		bodyModel[233].setRotationPoint(-31.5f, 2.0f, -1.0100002f);
+		bodyModel[233].setRotationPoint(-31.5f, 2.0f, -1.01f);
 
 		bodyModel[234] = new ModelRendererTurbo(this, 65, 119, textureX, textureY);
 		bodyModel[234].addShapeBox(0, 0, 0, 1, 18, 12, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-		bodyModel[234].setRotationPoint(-29.6f, -18.0f, -6.0000005f);
+		bodyModel[234].setRotationPoint(-29.6f, -18.0f, -6.0f);
 
 		bodyModel[235] = new ModelRendererTurbo(this, 48, 115, textureX, textureY);
 		bodyModel[235].addShapeBox(0, 0, 0, 1, 7, 2, 0, 0, 0, -1.5f, 0, 0, -1.5f, 0, 0, 0, 0, 0, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0);
@@ -976,7 +976,7 @@ public class Model411D extends ModelConverter {
 
 		bodyModel[239] = new ModelRendererTurbo(this, 203, 115, textureX, textureY);
 		bodyModel[239].addShapeBox(0, 0, 0, 1, 18, 12, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-		bodyModel[239].setRotationPoint(-18.5f, -18.0f, -6.0000005f);
+		bodyModel[239].setRotationPoint(-18.5f, -18.0f, -6.0f);
 
 		bodyModel[240] = new ModelRendererTurbo(this, 132, 104, textureX, textureY);
 		bodyModel[240].addShapeBox(0, 0, 0, 1, 15, 3, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0, 0, -0.5f, 0);

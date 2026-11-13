@@ -102,7 +102,7 @@ public class AddonPackRollingStockEntityHandler
         Traincraft.traincraftRegistry.RegisterRollingStockEntity(
                 AddonRollingStockItems.minecartSM31.item,
                 new TrainRecord("PKP SM31", EntityLocoDiesel411D.class, AddonRollingStockItems.minecartSM31.item,
-                        EnumTrainType.Diesel, 0, new String[]{"Skin16", "Skin17", "Skin18", "Skin19", "Skin20", "Skin21"}, 12)
+                        EnumTrainType.Diesel, 0, new String[]{"Skin16", "Skin17", "Skin18", "Skin19", "Skin20"}, 12)
                         .setMHP(1200).setMaxSpeed(80).setFuelConsumption(25)
                         .setHeatingTime(1000).setAccelerationRate(0.6).setBrakeRate(0.9)
                         .setBogieLocoPosition(-4.95).setTankCapacity(5000),

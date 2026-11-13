@@ -36,9 +36,9 @@ public class EntityLocoDiesel411D extends DieselTrain {
     public void setupTextureDescription() {
         InsertTexture(0, "PKP Oliwkowe");   // Skin16
         InsertTexture(1, "PKP Zielone");
-        InsertTexture(2, "PKP Zielone Goła Baba");
-        InsertTexture(3, "PKP");
-        InsertTexture(4, "PKP");
+        InsertTexture(2, "PKP CARGO");
+        InsertTexture(3, "SP CARGO");
+        InsertTexture(4, "SSKL");
     }
 
     // limit vmax takze w ukrotnieniu
@@ -89,7 +89,13 @@ public class EntityLocoDiesel411D extends DieselTrain {
                         texturePath = "textures/trains/Locomotives/Diesel/411D_/411D_zielone";
                         break;
                     case "skin18":
-                        texturePath = "textures/trains/Locomotives/Diesel/411D_/411D_zielone_golababa";
+                        texturePath = "textures/trains/Locomotives/Diesel/411D_/411D_PKP_CARGO";
+                        break;
+                    case "skin19":
+                        texturePath = "textures/trains/Locomotives/Diesel/411D_/411D_SP_CARGO";
+                        break;
+                    case "skin20":
+                        texturePath = "textures/trains/Locomotives/Diesel/411D_/411D_SSKL";
                         break;
                 }
                 texturePath += ".png";
