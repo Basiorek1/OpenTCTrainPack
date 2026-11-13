@@ -142,7 +142,6 @@ public class EntityFreight412W extends AbstractStandardFreightCar {
                 }
                 int index = skin - 16;
                 if (index < 0 || index >= SKINS.length) index = 0;
-                if (index < 0 || index >= SKINS.length) index = 0;
 
                 String path = TEXTURES[index / 2][1];
                 if (index % 2 == 1) path += "_END";
