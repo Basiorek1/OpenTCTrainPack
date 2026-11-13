@@ -129,13 +129,19 @@ public class EntityFreight412W extends AbstractStandardFreightCar {
                 null) {
             @Override
             public ResourceLocation getTextureFile(String colorAsString) {
-                int index = 0;
                 String s = colorAsString == null ? "" : colorAsString.toLowerCase();
+                int skin = 16;
                 if (s.startsWith("skin")) {
                     try {
-                        index = Integer.parseInt(s.substring(4)) - 16;
+                        skin = Integer.parseInt(s.substring(4));
                     } catch (NumberFormatException ignored) { }
+                } else if (s.equals("empty")) {
+                    skin = 100;   // FoxTC zamienia Skin100 na "Empty"
+                } else if (s.equals("full")) {
+                    skin = 101;   // FoxTC zamienia Skin101 na "Full"
                 }
+                int index = skin - 16;
+                if (index < 0 || index >= SKINS.length) index = 0;
                 if (index < 0 || index >= SKINS.length) index = 0;
 
                 String path = TEXTURES[index / 2][1];
