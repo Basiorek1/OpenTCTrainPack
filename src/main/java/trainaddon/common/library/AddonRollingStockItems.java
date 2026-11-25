@@ -21,6 +21,8 @@ public enum AddonRollingStockItems
     minecart303E_EP07("303E-EP07-icon", ELECTRIC, 20),
     minecartSM31("411D-icon", DIESEL, 20),
     minecart412W_Eaos("412W-icon", FREIGHT, 10),
+    minecartEN57rarb("5B-EN57-Ra-icon", ELECTRIC, 20),
+    minecartEN57s("6B-EN57s-icon", PASSENGER, 10),
     ;
 
 

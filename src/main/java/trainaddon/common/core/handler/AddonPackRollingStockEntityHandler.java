@@ -15,6 +15,8 @@ import trainaddon.common.rollingStock.Locomotives.Electric.EntityLocoElectric303
 import trainaddon.common.rollingStock.Locomotives.Electric.EntityLocoElectric303E_EP07;
 import trainaddon.common.rollingStock.Locomotives.Diesel.EntityLocoDiesel411D;
 import trainaddon.common.rollingStock.Wagons.Freight.EntityFreight412W;
+import trainaddon.common.rollingStock.Locomotives.Electric.EntityLocoElectric5B_EN57;
+import trainaddon.common.rollingStock.Wagons.Passenger.EntityPassenger6B_EN57;
 
 public class AddonPackRollingStockEntityHandler
 {
@@ -30,7 +32,7 @@ public class AddonPackRollingStockEntityHandler
         Traincraft.traincraftRegistry.RegisterRollingStockEntity(
                 AddonRollingStockItems.minecartET42_A.item,
                 new TrainRecord("PKP ET42-A", EntityLocoElectric112E_A.class, AddonRollingStockItems.minecartET42_A.item,
-                        EnumTrainType.Electric, 0, new String[]{"Skin16", "Skin17", "Skin18", "Skin19", "Skin20", "Skin21", "Skin22", "Skin23", "Skin24", "Skin25"}, 12)
+                        EnumTrainType.Electric, 0, new String[]{"Skin16", "Skin17", "Skin18", "Skin19", "Skin20", "Skin21", "Skin22", "Skin23", "Skin24", "Skin25", "Skin26", "Skin27"}, 12)
                         .setMHP(3290).setMaxSpeed(100).setFuelConsumption(25)
                         .setHeatingTime(170).setAccelerationRate(0.7).setBrakeRate(0.9).setBogieLocoPosition(-3.85),
                 Instance()
@@ -39,7 +41,7 @@ public class AddonPackRollingStockEntityHandler
         Traincraft.traincraftRegistry.RegisterRollingStockEntity(
                 AddonRollingStockItems.minecartET42_B.item,
                 new TrainRecord("PKP ET42-B", EntityLocoElectric112E_B.class, AddonRollingStockItems.minecartET42_B.item,
-                        EnumTrainType.Electric, 0, new String[]{"Skin16", "Skin17", "Skin18", "Skin19", "Skin20", "Skin21", "Skin22", "Skin23", "Skin24", "Skin25"}, 12)
+                        EnumTrainType.Electric, 0, new String[]{"Skin16", "Skin17", "Skin18", "Skin19", "Skin20", "Skin21", "Skin22", "Skin23", "Skin24", "Skin25", "Skin26", "Skin27"}, 12)
                         .setMHP(3290).setMaxSpeed(100).setFuelConsumption(25)
                         .setHeatingTime(170).setAccelerationRate(0.7).setBrakeRate(0.9).setBogieLocoPosition(-3.85),
                 Instance()
@@ -114,6 +116,22 @@ public class AddonPackRollingStockEntityHandler
                 new TrainRecord("PKP 412W Eaos", EntityFreight412W.class, AddonRollingStockItems.minecart412W_Eaos.item,
                         EnumTrainType.Gondola, 0, EntityFreight412W.SKINS, 12)
                         .setCargoCapacity(54),
+                Instance()
+        );
+
+        Traincraft.traincraftRegistry.RegisterRollingStockEntity(
+                AddonRollingStockItems.minecartEN57rarb.item,
+                new TrainRecord("PKP EN57ra/rb", EntityLocoElectric5B_EN57.class, AddonRollingStockItems.minecartEN57rarb.item,
+                        EnumTrainType.Electric, 0, new String[]{"Skin16", "Skin17", "Skin18", "Skin19", "Skin20", "Skin21", "Skin22", "Skin23", "Skin24", "Skin25", "Skin26", "Skin27"}, 12)
+                        .setMHP(800).setMaxSpeed(110).setFuelConsumption(25)
+                        .setHeatingTime(170).setAccelerationRate(0.6).setBrakeRate(0.9).setBogieLocoPosition(-7.2),
+                Instance()
+        );
+
+        Traincraft.traincraftRegistry.RegisterRollingStockEntity(
+                AddonRollingStockItems.minecartEN57s.item,
+                new TrainRecord("PKP EN57s", EntityPassenger6B_EN57.class, AddonRollingStockItems.minecartEN57s.item,
+                        EnumTrainType.Passenger, 0, new String[]{"Skin16", "Skin17", "Skin18", "Skin19", "Skin20", "Skin21"}, 12),
                 Instance()
         );
     }

@@ -37,8 +37,10 @@ public class EntityLocoElectric112E_B extends ElectricTrain {
         InsertTexture(5, "PKP Żółte czoło - Tył");
         InsertTexture(6, "PKP Żółty pas - Front");
         InsertTexture(7, "PKP Żółty pas - Tył");
-        InsertTexture(8, "SP Cargo - Front");
-        InsertTexture(9, "SP Cargo - Tył");
+        InsertTexture(8, "PKP Zielone - Front");
+        InsertTexture(9, "PKP Zielone - Tył");
+        InsertTexture(10, "SP Cargo - Front");
+        InsertTexture(11, "SP Cargo - Tył");
     }
 
     @Override
@@ -103,9 +105,15 @@ public class EntityLocoElectric112E_B extends ElectricTrain {
                         texturePath = "textures/trains/Locomotives/Electric/112E_B_/112E_B_ZP_BACK";
                         break;
                     case "skin24":
-                        texturePath = "textures/trains/Locomotives/Electric/112E_B_/112E_B_SPCARGO_FRONT";
+                        texturePath = "textures/trains/Locomotives/Electric/112E_B_/112E_B_Zielona_FRONT";
                         break;
                     case "skin25":
+                        texturePath = "textures/trains/Locomotives/Electric/112E_B_/112E_B_Zielona_BACK";
+                        break;
+                    case "skin26":
+                        texturePath = "textures/trains/Locomotives/Electric/112E_B_/112E_B_SPCARGO_FRONT";
+                        break;
+                    case "skin27":
                         texturePath = "textures/trains/Locomotives/Electric/112E_B_/112E_B_SPCARGO_BACK";
                         break;
                 }
